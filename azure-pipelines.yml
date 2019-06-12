@@ -1,6 +1,6 @@
 # Docker
-- task: HelmDeploy@0
-  inputs:
+ task: HelmDeploy@0
+  - inputs:
     connectionType: 'Kubernetes Service Connection'
     kubernetesServiceConnection: 'kube'
     command: 'ls'
